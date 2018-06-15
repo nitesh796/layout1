@@ -95,6 +95,7 @@ body {
   .navbar li:last-child {
     display: block;
     float: right;
+    padding-right: 0;
   }
   .navbar li:last-child > a{
     vertical-align: middle;
