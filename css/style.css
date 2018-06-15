@@ -4,7 +4,7 @@ body {
   font-family: sans-serif;
 }
 .container {
-  max-width: 1040px;
+  max-width: 70%;
   margin: 0 auto;
 }
 .header {
@@ -53,7 +53,8 @@ body {
 }
 .row {
   margin: 20px -15px;
-  display: inline-flex;
+  padding: 0;
+  display: flex;
 }
 .col-md-4 {
   max-width: 33.333333%;
@@ -80,28 +81,10 @@ body {
   padding: 30px 0;
 }
 
-@media screen and (max-width: 1024px) {
-  .container {
-    max-width: 768px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .container {
-    max-width: 576px;
-  }
+
+@media (max-width: 576px){
   .row {
-    display: block;
-  }
-  .col-md-4 {
-    max-width: 100%;
-  }
-}
-@media screen and (max-width: 576px) {
-  .container {
-    max-width: 400px;
-  }
-  .row {
-    display: block;
+    display: inline-block;
   }
   .col-md-4 {
     max-width: 100%;
