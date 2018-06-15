@@ -118,3 +118,13 @@ body {
     padding-right: 0;
   }
 }
+
+@media (max-width: 768px) and (min-width: 576px) {
+
+  .col-md-4 {
+    max-width: 50%;
+  }
+  .col-md-4:last-child {
+    display: none;
+  }
+}
